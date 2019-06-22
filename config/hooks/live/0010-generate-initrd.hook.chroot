@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+update-initramfs -c -k 4.20.0-yogabook-amd64
+
