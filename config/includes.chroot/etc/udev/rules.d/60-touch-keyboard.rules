@@ -1,0 +1,7 @@
+ACTION=="remove", GOTO="default_end"
+
+SUBSYSTEM=="input", KERNEL=="event*", IMPORT{builtin}="'evdev:name:$attr{name}:phys:$attr{phys}:ev:$attr{capabilities/ev}:$attr{[dmi/id]modalias}'", \
+ ENV{TOUCH_KEYBOARD}=="1", SYMLINK+="touch_keyboard", TAG+="systemd", ENV{SYSTEMD_WANTS}+="touch-keyboard-handler.service"
+
+LABEL="default_end"
+

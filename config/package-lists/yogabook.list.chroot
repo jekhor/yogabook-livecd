@@ -1,4 +1,7 @@
 firmware-linux
 firmware-brcm80211
+firmware-misc-nonfree
 task-ssh-server
+android-libbase
+libinput-tools
 
