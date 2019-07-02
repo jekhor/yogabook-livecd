@@ -47,7 +47,7 @@ LB_DEBIAN_INSTALLER="false"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
-LB_DEBIAN_INSTALLER_DISTRIBUTION="stretch"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="buster"
 
 # $LB_DEBIAN_INSTALLER_PRESEEDFILE: set debian-installer preseed filename/url
 # (Default: )
@@ -87,7 +87,7 @@ LB_ISO_PUBLISHER="Live Systems project; https://debian-live.alioth.debian.org/; 
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
 # (Default: Debian stretch $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="Debian stretch $(date +%Y%m%d-%H:%M)"
+LB_ISO_VOLUME="Yogabook Debian $(date +%Y%m%d-%H:%M)"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)
