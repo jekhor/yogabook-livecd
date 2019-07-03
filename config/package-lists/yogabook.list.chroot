@@ -4,4 +4,5 @@ firmware-misc-nonfree
 task-ssh-server
 android-libbase
 libinput-tools
+xinput
 
