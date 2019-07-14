@@ -58,7 +58,8 @@ LB_MIRROR_BINARY_SECURITY="http://security.debian.org/"
 
 # $LB_MIRROR_DEBIAN_INSTALLER: set debian-installer mirror
 # (Default: http://deb.debian.org/debian/)
-LB_MIRROR_DEBIAN_INSTALLER="http://deb.debian.org/debian/"
+#LB_MIRROR_DEBIAN_INSTALLER="http://deb.debian.org/debian/"
+LB_MIRROR_DEBIAN_INSTALLER="http://localhost/debian-yb/"
 
 # $LB_BOOTSTRAP_QEMU_ARCHITECTURES: architectures to use foreign bootstrap
 # (Default: )

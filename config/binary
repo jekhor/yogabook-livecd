@@ -14,7 +14,7 @@ LB_BOOTAPPEND_LIVE="boot=live components video=efifb:width:1200,stride:1200,heig
 
 # $LB_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
-LB_BOOTAPPEND_INSTALL=""
+LB_BOOTAPPEND_INSTALL="video=efifb:width:1200,stride:1200,height:1920 fbcon=rotate:1 random.trust_cpu=1"
 
 # $LB_BOOTAPPEND_LIVE_FAILSAFE: set boot parameters
 # (Default: empty)
@@ -43,7 +43,7 @@ LB_BUILD_WITH_CHROOT="true"
 
 # $LB_DEBIAN_INSTALLER: set debian-installer
 # (Default: false)
-LB_DEBIAN_INSTALLER="false"
+LB_DEBIAN_INSTALLER="live"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
@@ -99,7 +99,7 @@ LB_MEMTEST="none"
 
 # $LB_LOADLIN: set loadlin
 # (Default: false)
-LB_LOADLIN="false"
+LB_LOADLIN="true"
 
 # $LB_WIN32_LOADER: set win32-loader
 # (Default: false)

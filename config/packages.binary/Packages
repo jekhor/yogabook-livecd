@@ -1,0 +1,1048 @@
+Package: acpi-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 65
+Provides: acpi-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/acpi-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 12324
+MD5sum: 4bc50fe752b314bbbccd919e7df4f9a7
+SHA1: 899b6e260076ac7c8663ec8f4e12c723741248bd
+SHA256: 8904ef328c69b5a516f62bdb5cfa8f8880b01abf8169811afd35ac06cdfbb3e5
+SHA512: 059656cbf3679a32583f3eeb0f421113b99c21d0b09eccc2bb8492d4a24c7277e03ba2f016d19bdc50a91d902b2d8d61f72c15ca95c19d7c22e78238cbf6d99e
+Description: ACPI support modules
+ This package contains kernel modules for ACPI.
+
+Package: ata-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 545
+Provides: ata-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/ata-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 109324
+MD5sum: 58356007b7db10c872b31bee75889c29
+SHA1: 6a94614860897946bcb2e360362654361edc5520
+SHA256: 3ffad137202a3e1e5670bf8e4c901bb2175db109a174a743645ddebf3afd219a
+SHA512: 30f6333a259c9ff08ec34e346b6e3f33d55f5f96273e64df077a5b59eb41c2c8d3b92739e07b0636816999b347bb3404578f9e131068555b4ee240dde2c0ba42
+Description: ATA disk modules
+ This package contains core ATA disk modules used by both PATA and SATA
+ disk drivers.
+
+Package: btrfs-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 2926
+Provides: btrfs-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di, compress-modules-5.1.0-trunk-amd64-di, md-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/btrfs-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 585596
+MD5sum: 2e1bab88468235ce5cdb784eba06e811
+SHA1: 3421d63168129b298dcbf9019708544b2dfb2f60
+SHA256: b4519020c43f79e000f0b152698d7c496940d2f50cfa3856cf1bf74846ec61c4
+SHA512: ac01ded414d384865164510974ae04b5626e97c509bd4aa86fbe8b7ece70277c5317c9a75f14336781824d9996ede6ded78b91f1ba6a8c6351ac1d37c8a6097d
+Description: BTRFS filesystem support
+ This package contains the BTRFS filesystem module for the kernel.
+
+Package: cdrom-core-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 176
+Provides: cdrom-core-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di, isofs-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/cdrom-core-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 33948
+MD5sum: 3f6045fa5276add03022f87b22fcf54c
+SHA1: 7779fea7c5f045f6f5ca928a7be88936b05b5eb8
+SHA256: 641dc187ce85b05db64a37d1aa6e4165eccbe11c805221b3e24b3e4af98e9e3b
+SHA512: 1c183621ab0620deef075b779e0dd18e74763d4632702e2d48492cb8f32f6e80037e03ce1d4255b12f68ad97466f0600c3807039449d47fdb605b97e150894ab
+Description: CDROM support
+ This package contains core CDROM support for the kernel.
+
+Package: compress-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 114
+Provides: compress-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/compress-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 32692
+MD5sum: e8748c20695ab70d9e8abe34f5d3a535
+SHA1: 488ae9ba29008f73d7c4f3b79fb3c5352521c12e
+SHA256: 7fe6bd1cab599dc8cd3d386868f8ea0e5609615bd070cc7791b47f24827d74b6
+SHA512: f2dde3372fe9ec719391e237e6802b6498a09431df3eef2bff4c6b11629640e02da3512901d71a57c481a34b519c8a609a1d00b3c5cb5b93349635e852a9a077
+Description: lzo modules
+ This package contains lzo modules.
+
+Package: crc-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 47
+Provides: crc-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/crc-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 6424
+MD5sum: dc400f291b4cf7ba3f7ef6cd72cd8622
+SHA1: fb57b1db56fbbfcba50079c49eefd5fef3163a08
+SHA256: dba4d3d831092dbbf7f7948647d03f15bc59b78a04890b12a1ce8f7e3c6b9a70
+SHA512: 4d742516b83ea60aa016ddad3281a378b843496db20846d9d8b93ee4321d4f701f89b8933b0e6e2056ffb21459d366eadc97faa48810e2a68282245a42da811e
+Description: CRC modules
+ This package contains CRC support modules.
+
+Package: crypto-dm-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 91
+Provides: crypto-dm-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, md-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/crypto-dm-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 19896
+MD5sum: 0d76e234236b84fc0576f86fde248652
+SHA1: 93e32b50ff5eea7deb2f5bb2248ee1e1518032e7
+SHA256: bcf4aec0a903d613a19b96982a62c4d73e86f6b5c008ffae8e3bd0384841e412
+SHA512: 650576b13ca0122d2d57e9c25f257f418343947abbb23ea88a74f24bfc5cdc07a2a0376ce7959a048a34f76064826d43e53bca864a627a03f68f69c18d936571
+Description: devicemapper crypto module
+ This package contains the devicemapper crypto (dm-crypt) module.
+
+Package: crypto-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 214
+Provides: crypto-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/crypto-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 49304
+MD5sum: 55ee23c47b18b5e09f0a2fedc5cca7ff
+SHA1: ba3a06d2d396c611ac62e05526be74cc8dc46a5b
+SHA256: 17c78fdec8c8e77a02724f6fe6738a0f9ce46f3abe18dc1f6d5fd19422a4681e
+SHA512: 68b836ffbdefbb4348b30b85be63e7726c25fc25935fceff7dd0d2f463c0841e477edc70b307b98074c1399ee17883d6804b685ae9bd2516f66af341d7b4d1b0
+Description: crypto modules
+ This package contains crypto modules.
+
+Package: efi-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 64
+Provides: efi-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/efi-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 11532
+MD5sum: 48319d503732dd6a0b7b6f516ab6a23b
+SHA1: 8d6559b9b716b57b106074d95b8bece648f494d2
+SHA256: 8a7d25dcf9dfc14a327205f653070e87bca065c36b1b456b085f6c97a45e2156
+SHA512: 2dd0571a19886313c97577f0b7e429e583b980da136f9614743bc6f4160fdd991dd03872da0c098fdb939bdb08f9f81bc824c830e9ceb53ca20f3ce5a906526e
+Description: EFI modules
+ This package contains EFI modules.
+
+Package: event-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 48
+Provides: event-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/event-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 10044
+MD5sum: 7cf656d9a21ebd8737eeccfb9104b15f
+SHA1: 58022b353648672cbd5a1e442ea14ccdc9555ad0
+SHA256: c4bd64acb1789403439f40f5ab9a1b8df2cee6c6d762d2637d329a5ce14a71ae
+SHA512: 0cd2232cbb43f53c6d6f4da5d8a784c81b7daa0437e61dd8773fb62be4580e02d550bb0881071b3a89048d34cf99effa7f0d9287f331e30bff0f57f71f9851f7
+Description: Event support
+ This package contains event drivers for the kernel.
+
+Package: ext4-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1682
+Provides: ext2-modules, ext3-modules, ext4-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/ext4-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 306608
+MD5sum: 2e1d4fb6d3d6b0060c5bc8e6370ae8e1
+SHA1: 5d6e9bd36f8ac2bf0771d05d338eceb320f44ce5
+SHA256: 6353c9ad234fa57bba8f7a61c7877bb66992cc9c19ac87102cb11effbb81f269
+SHA512: f6962c4a0785a84dc58d8a0e3599058d1f0269972949b908f2c5b97b694f0a04f31c5ab5ad2558fd40d984a14be13a033666cebba4b01eeb56cf40945d982595
+Description: ext2/ext3/ext4 filesystem support
+ This package contains the ext4 filesystem module for the kernel, which
+ also supports ext2 and ext3.
+
+Package: fat-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 221
+Provides: fat-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/fat-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 45496
+MD5sum: 95b629d8af60bd54e55f7f7cd6829ed6
+SHA1: fdc680f56e4f62410750be7c86acfd1587809a48
+SHA256: d7815c4e4244e9764705639c6222699b63734aaa452e9a7403d27f1c43f8b1ae
+SHA512: 2e11225328c34ba0707b8a91614503ef6bc508b31d9ffaa0a97b384c90fd0b9b7b3c861cb7569e7c60129cd3bc05740621359ebaa40b90b447d891d28c4fd18a
+Description: FAT filesystem support
+ This package contains the FAT and VFAT filesystem modules for the kernel.
+
+Package: fb-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1720
+Provides: fb-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, i2c-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/fb-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 310788
+MD5sum: bb7e3daf396e2d1d2e05d276c1610c3f
+SHA1: f340da2168273efd82bbabed59ff6071869ac926
+SHA256: 520a0a35ce9ecaf7bbace1dc6d657ef97894e5c38b2a68e5ff586fc05948ac2e
+SHA512: a7e0ddb562dda1496dc3f6b52bcecf6ca70f6eb67496002da361e30ad67b04f6886d9382b55d38149169b57dc3d0b37136f3ba65da342813efc4b6d526cfd4b0
+Description: Frame buffer support
+ This package contains Frame buffer drivers for the kernel.
+
+Package: firewire-core-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 296
+Provides: firewire-core-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/firewire-core-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 61244
+MD5sum: 2522691c86dbeb65d334ddf966cf1251
+SHA1: 4b1f9d95e28251438273ffbbaf846162ecb2eb2c
+SHA256: df93dc74f9effe623b0686c4c5165aecda107f6c6b8d6e5c38acb2a0829d2bf5
+SHA512: b96384b1651816ebb4153ff11e11be2f1420fae7d6b652739d0137aa1d93972ed2baa0a5accd0740e334ed6f2e62d46d11bded2535baf1e45575c22c4754f012
+Description: Core FireWire drivers
+ This package contains core FireWire drivers for the kernel.
+
+Package: fuse-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 279
+Provides: fuse-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/fuse-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 57500
+MD5sum: 8b94a1924e0cad9c891144490b026fcf
+SHA1: 886bde54b13377f94be1ecf9aa3589fa0703f93c
+SHA256: 704bada61823313a178e9a29b48951c6cc842976c69e2117cff3acd0399bb67b
+SHA512: e6414104e94ee7339e769ed0f057d5aa2a418ec8db87103039f9930dc6c1877fb5d53d232bda3c6131c595308e4752cdeb311f12417cefb6d8fe92774fbb43ad
+Description: FUSE modules
+ This package contains the Filesystem in Userspace (FUSE) module.
+
+Package: i2c-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 29
+Provides: i2c-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/i2c-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 5372
+MD5sum: 8993019158c61861d1209c7087d0dd60
+SHA1: ec82d30c313e7f3a82b98957312e866c0f487efd
+SHA256: cea9c3be47b817981ca99e7c7b34b8343e24f71a830f32d66fdca473f0bad99d
+SHA512: 4612030bd5c0f226df86f1e9039568d16057c0322fc709a0d3530b0d06414b5f11aa05b0140825cedb494ad1b472929a889f3ef4cdab66bc6f7ca64ab29c0f74
+Description: i2c support modules
+ This package contains basic i2c support modules.
+
+Package: input-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 2257
+Provides: input-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di, i2c-modules-5.1.0-trunk-amd64-di, rfkill-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/input-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 348360
+MD5sum: 4eab416685d79fdc2e9d7256ec422a80
+SHA1: 6c92fe93551d8067bad20d109eec574ee707ce38
+SHA256: 9f9cdf4f9fd384b4e40e634ada4f3b875c6c4f7728e7ee042364b1befd4c8057
+SHA512: 1ac075098c382955fff8ff6c02ba5889e0bb817231355ee6d08e131075a42952b040e38cdfd705ff078cce01ef72ca0d1b4764339e8d60bf7ff4409fce47abfe
+Description: Input devices support
+ This package contains input device drivers for the kernel.
+
+Package: isofs-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 81
+Provides: isofs-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/isofs-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 20280
+MD5sum: 5ad4faa356e225c46be320e49cf3f512
+SHA1: af00c0d6808413d88f0d31f462e576e8267eb2bb
+SHA256: cec1224e3a1836c761137392179573591fc5e6099f5f28b7a63da0a243f03359
+SHA512: 965dd3ab1e795c6942983e54375ee884a3e5029d680e82b7d8239b61f7a667b0cb2dd7fc986a20c6ce87ab6dc3673d7207188cfca0ade7ab6f53ac1f0225a195
+Description: ISOFS filesystem support
+ This package contains the ISOFS filesystem module for the kernel.
+
+Package: jfs-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 410
+Provides: jfs-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/jfs-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 98760
+MD5sum: 636a5c51fde5661ab6744783ff7aedd9
+SHA1: 34ef74939182640cf9f98409084d3300a5220dbb
+SHA256: db5a39addbba0732e0cfceb5c2dedfa25c0a1941e0584507b01ffed8d92966be
+SHA512: 13968bf145b56fe6e74d7b2dbf343637c2f56a861093ffb442b8f7920abe85512bb70e7b5174fb81f00678938e40babd4d912054230c0e2c5096d7e6422ce4b7
+Description: JFS filesystem support
+ This package contains the JFS filesystem module for the kernel.
+
+Package: kernel-image-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 9684
+Provides: kernel-image, zlib-modules
+Filename: localudebs/kernel-image-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 6023592
+MD5sum: b33286dd8050cb4ece18d44de33e23aa
+SHA1: 727a372e1b22978a26584abbf925e40c0f4c8d3c
+SHA256: 7145b55e3c5d5c03976d512ec2eb11f6c94b421e639da928edc1979c3a559183
+SHA512: f47b3cb1b7decff36ac17ae8da87c8e16f76ab187c2a427a893d160011d0248054af71d1c0b2b787a7eed7f8b654eb5f1f72f52906b3b98a74e3964ae7358c90
+Description: Linux kernel image and core modules for the Debian installer
+ This package contains the kernel image and core modules for the Debian
+ installer boot images.  It does _not_ provide a usable kernel for your
+ full Debian system.
+
+Package: loop-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 78
+Provides: loop-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/loop-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 16700
+MD5sum: e2d5edea1a2097699bb908ac8125c0e1
+SHA1: 1eacdb4c934264265fa1c994f630cae823028eee
+SHA256: b48b455ee7a0f57c4e34973b02c0335b15dc9a7e9428136def22e7cc80eb4c1b
+SHA512: 6b6bef579df77213504fc49d386022bb7137c2311a9d1189dacd86dd26a20f736b5fb98b0583823afa673b0cd0a87a774777657ae79028009dcb8988a7ea8ff2
+Description: Loopback filesystem support
+ This package contains loopback filesystem support for the kernel.
+
+Package: md-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 2377
+Provides: md-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/md-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 509208
+MD5sum: fc27535fa3f7c14081751cd581266995
+SHA1: cf314e67cda4ec7e267f2cfa4a5d1f67f9bab8c4
+SHA256: d765f8932f1e92bbe6e2cc01ad7d90f63f1e44dcf340eb68a8de6e6db1dc41b8
+SHA512: 8728a5ac0420ad56852111dcf853fcaa996351b9420e28c30f03839ebb7df66d43fbfd3e3bf140a87e8726538595eecab5d3f06ab5a706e1d9521acfa7d5dd5f
+Description: RAID and LVM support
+ This package contains RAID and LVM modules for the kernel.
+
+Package: mmc-core-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 348
+Provides: mmc-core-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/mmc-core-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 64780
+MD5sum: 7d6e35e30cdbeed173780471118fc059
+SHA1: ae5c4fe3f8c3606405f2a6f9f97b4f1c39a48b1a
+SHA256: 9dbf5b9ae389b5c5cf4644c4261e838d22c1a25f3ad3ce84aeaa04bd2cb6b219
+SHA512: fd9691be1b00dba539f0b3aabc7fc5db6b73b7ff2e57f8c84a049071b208cae32786bc9b1a5c3013ad52e5cd2c656feed1629811dd3a50472350f7e5c5b03738
+Description: MMC/SD/SDIO core modules
+ This package contains core modules for MMC/SD/SDIO support.
+
+Package: mmc-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 986
+Provides: mmc-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, mmc-core-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/mmc-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 170840
+MD5sum: 25eaea749bb85df6579d1ab4f631cc4b
+SHA1: b51b8fb03fcc4ae34d4c8536f1fccb35388866f5
+SHA256: 6671f1c45996d37c9ede5d313229b5ed865d2249978710801fde419f916ccb30
+SHA512: af80f75b69b8a40e2612a63cfe133b58ef17ca481a9e50fc4489f56350f07aaf9efdb7596e893daec0e2bb3b035b036fdde088a57d65fce62cb3dc7f112d6269
+Description: MMC/SD card modules
+ This package contains modules needed to support MMC (multimedia) and SD
+ cards.
+
+Package: mouse-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 342
+Provides: mouse-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, event-modules-5.1.0-trunk-amd64-di, input-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/mouse-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 63856
+MD5sum: 8fc7fe428894b49eb58ef780b181f7fc
+SHA1: 54e13264c7b128240096564868e8c4dccaa4b0db
+SHA256: 5184e575d92232950f007fa7f1b65e9dd753f780b1ea0cd56b2fc8e51b1c5702
+SHA512: 262d7f63ef4da92f15f2fd8243b675430cc37685092a4a7fe74148bffae6bf631173b3cc97ed93749df9aec8ba976b36cabecbf13c1623ed9a5c848a4274b998
+Description: Mouse support
+ This package contains mouse drivers for the kernel.
+
+Package: mtd-core-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 149
+Provides: mtd-core-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/mtd-core-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 26860
+MD5sum: 12f1ffb91650ef82df76b48a46734b40
+SHA1: ecbbc8e3506a07245e37852c060fd20c5de828a6
+SHA256: 6d4b8b3ba2daae6ac20acb40e4d19e7198dae2310f9136d4b2a1044b2bbe5c4c
+SHA512: 516f23fda84dc993d66d18c45fb871f4c3b81b6a231c51270296ec7680d65a0ab7baad99fca73c2d68715703d10fe88110ed66f9229b07546980ede9dcb64ea2
+Description: MTD core
+ This package contains the MTD core.
+
+Package: multipath-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 101
+Provides: multipath-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, md-modules-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/multipath-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 18124
+MD5sum: 482aa8c20a05cfb02069526f9b4aecf9
+SHA1: 1deca856fe5a0ef9ac3ef0964de365e106683c74
+SHA256: 922b68f208199f0221ed9e03b251e79281a17d4d7e49eca90337d052bade2f41
+SHA512: aac97c3fca0987e95b9a1b869abffb12aac4dfeb82f2b23124491deb9ed27f76599b738bf7ac073d1ef3139d347763f9e96f927db2c138a7ceacde86901f3fac
+Description: Multipath support
+ This package contains DM-Multipath modules for the kernel.
+
+Package: nbd-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 88
+Provides: nbd-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/nbd-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 18224
+MD5sum: 52403004aa563de34e632e7f8295a036
+SHA1: 2ecdf39b2e2cfcaa1b98460d6ee03e208c302091
+SHA256: f0b20490ad9fd50c0ed2d247cc4db46ab89226fc9cbfd95b08aa7b45bd914a1a
+SHA512: 992b08159f073dd483ded56ee2a9ccf9fac8b5af46f5981ac976b839798d59bdfaad2ef3a9193c3b18ce6db41f226dd7041f3284724e848a2af7814d7c8608ed
+Description: Network Block Device modules
+ This package contains the modules required for support of the Network
+ Block Device
+
+Package: nic-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 21110
+Provides: nic-extra-modules, nic-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, nic-shared-modules-5.1.0-trunk-amd64-di, i2c-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di, mtd-core-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/nic-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 3903612
+MD5sum: a77e561318c76623281e524e6c8b0f1c
+SHA1: f7156a9852e178c52741405a9bc2c98de4c5ed4e
+SHA256: 665537944740b6c5a48382cc16023c46912a8ecf868e43aedcec9b5cf853a67c
+SHA512: d65a1551d0aed9f3c3b45b6d89f008fae1c12e469667062f57137eeac051445d59fca04cc2be5170ee6799cf1ecaece3a7e4ef55016228f90acb0945ece9d5eb
+Description: NIC drivers
+ This package contains Ethernet and some paravirtualised network drivers
+ for the kernel.
+
+Package: nic-pcmcia-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1242
+Provides: nic-pcmcia-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, nic-shared-modules-5.1.0-trunk-amd64-di, nic-wireless-modules-5.1.0-trunk-amd64-di, pcmcia-modules-5.1.0-trunk-amd64-di, mmc-core-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/nic-pcmcia-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 203908
+MD5sum: 2312aed91498e5b0b3a758f81b4146ff
+SHA1: 4122ad5e7c6cd64bd3ee02251b66909938726e87
+SHA256: 7a7ea05b29f3df8c9b6b76abfcfcd5af3826f4109b617bfff3546f11ce1828bf
+SHA512: 1107c2339bec32962e1c7d9a00ab79ee6f237ec3e6916774adcbe4e8cd2197612ac31b7e69f724b97f01d31b18792e1636fc3e1f707bccb85e61c95ff33eb433
+Description: Common PCMCIA NIC drivers
+ This package contains common PCMCIA NIC drivers for the kernel.
+
+Package: nic-shared-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 254
+Provides: nic-shared-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/nic-shared-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 44456
+MD5sum: e5f83671f45a976c918ce9faedaf1f04
+SHA1: 4fa63a99d7d4621bfdb9b702cef0e0a291a88e2b
+SHA256: 89ae916b865995a0e0bee1367ec60584970066d6f9408d5baaccec5191b3b4d5
+SHA512: 191a301ba40b81ab3368f57c6d007e6eb92f9dc4f4785b542970a2bb53fe3c57700778d771cf62ddc0dcd83248c9c14beddbfb5ceea678cb2ef4aec9c2146af9
+Description: Shared NIC drivers
+ This package contains NIC drivers needed by combinations of nic-modules,
+ nic-pcmcia-modules, nic-usb-modules and nic-wireless-modules.
+
+Package: nic-usb-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1427
+Provides: nic-usb-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, nic-shared-modules-5.1.0-trunk-amd64-di, nic-wireless-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/nic-usb-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 218216
+MD5sum: 69dd52633d2243c3ecb3aeb67b595e3c
+SHA1: f9f8af506bb98be945d8e46d3f5a3145917818a6
+SHA256: 4e236b452d2e09285b3487ad19ec578c207625c9d09b1c7abce7b19e4aff6ee8
+SHA512: 15a660de56549fb2941f24329c442f0335c0c3e4098926a57a54cbc959f7ee9aec6e18666c80b977ef7bf6ef4d8b468231f882880beca58a703df7b4d26f6be4
+Description: USB NIC drivers
+ This package contains USB network adapter drivers for the kernel.
+
+Package: nic-wireless-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 24490
+Provides: nic-wireless-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, nic-shared-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di, mmc-core-modules-5.1.0-trunk-amd64-di, pcmcia-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di, rfkill-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/nic-wireless-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 4264192
+MD5sum: 7ba9a021ca038ec602ef106fc5ad0658
+SHA1: 1a2e2ca6bcc2bc60c7aa24b3d7a5d91a14fc58fe
+SHA256: 5531f3b76a40fbaafe52e2ac676755aaf97fece84e234c5cde5ac46bb39eb56c
+SHA512: c44aeb4ebacf642eb58fdfa6da5c31059b5fe90607b2c0791c7a9ca9451151f21c6341c91749186de45ddc6c980a46d9837a5847b8c47462adc8819515e9e16b
+Description: Wireless NIC drivers
+ This package contains wireless NIC drivers for the kernel.  Includes
+ crypto modules only needed for wireless (WEP, WPA).
+
+Package: pata-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 544
+Provides: pata-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, ata-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/pata-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 59816
+MD5sum: 6442d753ec53cd07b9adcfffe9140b59
+SHA1: 3ac448755b4f7db2be3663e75b0756bbcbdf6c54
+SHA256: f23b21482f510c7c96661b15c43363325523dbfa5f9388150071060eb6cf4962
+SHA512: 4b7a4404598bfad01895dce907049da1e73817e85c44e42198d51c51e4ae2d0e14407263492634f4d672e9406761f11006c2312cd4e913154c13f8484966d2f7
+Description: PATA drivers
+ This package contains PATA drivers for the kernel.
+
+Package: pcmcia-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 396
+Provides: pcmcia-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/pcmcia-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 69396
+MD5sum: eebe1658282c27d9f6f839c6bc638ecb
+SHA1: 07a2897676de1da81293b9f20816d4c434a891df
+SHA256: 7b1c7ba6f292a1780c369cd6d6fb01da32d68a71871d8140fbea69534150084e
+SHA512: 16e8cf93f7c14d03d6746344958f1eea2ed2f20a964119ab67df04ab2784a31144545861ffab37a2ee4487dbeb4f49e42e1d1f708bab245e251cc1e8eade6d74
+Description: Common PCMCIA drivers
+ This package contains common PCMCIA drivers for the kernel.
+
+Package: pcmcia-storage-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 53
+Provides: pcmcia-storage-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, cdrom-core-modules-5.1.0-trunk-amd64-di, pcmcia-modules-5.1.0-trunk-amd64-di, ata-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/pcmcia-storage-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 8048
+MD5sum: 4e949311af4628d69159f20207b9949d
+SHA1: 448646d016fd1b3ef5ff93795d6ec8b58590ea44
+SHA256: 25c37fafcba4915bbaf2e2b0b11b65c2be53d8c537e1dfa206458a4c85ac5daf
+SHA512: 34e5d2cad5055000ef323e13dfe7ae8e1ef1927a1cfaf7a685788b4cbbb14b9249c4a640b16d2ff61550a593c135eaa1673615fedb1186f92f7a4669f1625fe1
+Description: PCMCIA storage drivers
+ This package contains PCMCIA storage drivers for the kernel.
+
+Package: ppp-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 226
+Provides: ppp-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, serial-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/ppp-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 41592
+MD5sum: 7d6f759cfeab1760639b80147507d0db
+SHA1: 0f3eb0b1e24a536bd466e1ce65084f07a4771ab1
+SHA256: f5086d79fee48d613ef00ccce01391066c305b4967acae3525029d1386c95251
+SHA512: 58f310130537a01101130286f00eacaa7b30fa42315d4f56926c0aeb6bee427e597a596c0f2e707fc53385cb32551694379ebc91b6b689259843ab9dc260f98e
+Description: PPP drivers
+ This package contains PPP drivers for the kernel.
+
+Package: rfkill-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 71
+Provides: rfkill-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/rfkill-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 12436
+MD5sum: 81ca521ee455f2d44565689876bfc6a3
+SHA1: d0f658a8d50b4af324f45b17c7ab0099c2f4f8a6
+SHA256: 12cdd85276e7b015398f097c09f8e2ee4b2c249062f5aae11f5dcd3b50d38f6f
+SHA512: e23af441b5e78a5353762f2d5dc548af0fdb0e5433c9a799d545fdc5297cdf65e917d701f8d3d5c5229fa43f83a7330761caf021f23442976665d1259fdc2b91
+Description: rfkill modules
+ This package contains the rfkill module.
+
+Package: sata-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 823
+Provides: sata-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di, ata-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/sata-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 132360
+MD5sum: 22577a45f9c872242dd21c7e8c700e9f
+SHA1: a5d64a1c8aaf5cc4a46d40adf93e098ffb1b7ab8
+SHA256: ee356831b9615a97680d2cf89a1b59c5f57c2c34814684b1dcf9bb6b03fde773
+SHA512: 8b099eff78df8b8587823d2dfd35c2910ea08fd611a7d773008cc9f627fca62533d6f772239c72d219453a1b76d1c53881117b88aae904b4e731580570eb6499
+Description: SATA drivers
+ This package contains SATA drivers for the kernel.
+
+Package: scsi-core-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 865
+Provides: scsi-core-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/scsi-core-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 149728
+MD5sum: 3f142773aac9b56ed89b497a6aac30c3
+SHA1: f3757882754ec1273741799d6bf1c061f88864c7
+SHA256: 125e473620efacc5b17f0ace2cc3ddaf7c3b89d67378e9518cc952d588598306
+SHA512: 1524d2775eec6c020df3331d4b95c2f546a2b560fc2242500874dec21d54197fc7f564f9ea94965d50960a8e55fa0eca3d6c3ed4d063dde3333abf052957d337
+Description: Core SCSI subsystem
+ This package contains the core SCSI subsystem for the kernel.
+
+Package: scsi-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 15255
+Provides: scsi-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di, cdrom-core-modules-5.1.0-trunk-amd64-di, ata-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/scsi-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 2819756
+MD5sum: 06f7a1ccb9440007aae07b906854e934
+SHA1: 8846a1bce21e8732c0e64f07aeb4cac8b06224af
+SHA256: 95dd6030008af2704116a4919f1248c462de17c65415847a0b4cb842972077ad
+SHA512: 69ace93b820cf60cc6f4e8af61ad33c4609f5b08edcaea66788f960f7bffa07309833601eea94acbffa37518ab8cbc1713ecfb31de5a8c09ff6c524779802f20
+Description: SCSI drivers
+ This package contains SCSI drivers for the kernel.
+
+Package: scsi-nic-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 720
+Provides: scsi-nic-modules
+Depends: scsi-modules-5.1.0-trunk-amd64-di, nic-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/scsi-nic-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 139444
+MD5sum: 8dfd9a6fdfc4a2e733c6b3379558e50a
+SHA1: 20548102b5d59b8fe279ece5a7a8de585a609043
+SHA256: 70617576aa4e4ce883b126c9fe68a7d7d2386943c349d96fed6c21f4b748bd35
+SHA512: 6919c79f0b549b8492fcb06449569fe2616ec76688e133a85d6e8251bc2c17e42b9809323ff4147906269b401e35ef989e87c612f371b2dfeca67dbcf5a3bff6
+Description: SCSI drivers for converged NICs
+ This package contains SCSI drivers that depend on net drivers.
+
+Package: serial-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 218
+Provides: serial-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, pcmcia-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/serial-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 38512
+MD5sum: fa27d89771a9215c6ccb4f82d4903dc5
+SHA1: c9cd695ec06a24d20ebc613bb24abe431d9581ee
+SHA256: 90c19b0d6509798199fd1e38f14b066fce280df7f02eb1eac2a1c42cb2c46579
+SHA512: 29b3ace10783124aa598e49bb8a8df9cdf2f9182a48599a23376ef29abb0fdbb31a28f50b2e71c66854b5e179340af35894fa74f18d7db15206277847b0f046c
+Description: Serial drivers
+ This package contains serial drivers for the kernel.
+
+Package: sound-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 15392
+Provides: sound-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, i2c-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di, pcmcia-modules-5.1.0-trunk-amd64-di, firewire-core-modules-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/sound-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 2112272
+MD5sum: 0d595052d00454fa1b00f7401871d621
+SHA1: af210955b1324cbd8e7b9fc875085563a5f3d732
+SHA256: 020c91b264f46b6f3379bca8424b716e9dac5d832ece7c5211a52fe242d58951
+SHA512: 0dfbca483a42402ecbc46083e93eaefe51dfa935fb45dc73a7f5c9115736e5e43768f5284b02d70676c334a15e1782b738102708dc4453a56fcf5ccca48aef3b
+Description: sound support
+ This package contains sound modules.
+
+Package: speakup-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 405
+Provides: speakup-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/speakup-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 57288
+MD5sum: d1e308536f55b3f6cff3cfff0d3decd2
+SHA1: 9f53c699fe9c89e0e31a00352981f1017c35f824
+SHA256: f7bb68976540d87a08cf9993da403828400ba98fcb4d403ade26e0258021a263
+SHA512: fd6c64d2c94b70ea6d7903a87453248eb0f80a28683752e8a7310467cc9610e6b1b044719bffe8c9cda930e9cf834dd3ad9bcfc4c68b309e6e497e06e6477232
+Description: speakup modules
+ This package contains speakup modules.
+
+Package: squashfs-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 126
+Provides: squashfs-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, compress-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/squashfs-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 24736
+MD5sum: 435d81587d35da894ffc0ad7ec38d472
+SHA1: 1b1d132a4776c100cfa3d978a005fe745b2412d9
+SHA256: 0db0db8c670c3583006fdcb98c06c405b3e14279d9a24b03088b16a5ab65aa7a
+SHA512: 0c72e6979086240d252504970865d4f0f976aa48d121d3bfd0677ea205978f7b82c87b6291026295ec8764bf49263561524b2b4a8b62372d1668d8f36c5da986
+Description: squashfs modules
+ This package contains squashfs modules.
+
+Package: udf-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 195
+Provides: udf-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/udf-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 49616
+MD5sum: 61112efc27fbe8f26564c5b01d8cf6f4
+SHA1: bd1823187b306185b42b085e8ee0e75843ab5ce2
+SHA256: faf613620be6c3d09378e01628a48626df04ff03dba1cf8a48eed39c640ef541
+SHA512: 28dd1bcbf03080a29ce82ec54e7c0050f483521f9634a68c157e878411de5f5dc19598d906e4b1d9b600c53fdce0c81bf3c6f4b7612bb0f5e38e8b497e6b4a3f
+Description: UDF modules
+ This package contains the UDF filesystem module.
+
+Package: uinput-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 40
+Provides: uinput-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/uinput-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 8088
+MD5sum: 85738f41465ca4ac4b48f9ec5333aa71
+SHA1: e4f006b8dc67c45e11b61996b9f1d4705f93c93c
+SHA256: 4c7153f0afafed027591c23ca3620a9b23de473038f633dbf5e13212b4774e02
+SHA512: 3a24977dd83b320509b0a2685f8a4af1931e0bd245822e1f8824321e48c94b74b34f532a964a2f34c4dc2776fe147fbfab0276ca5c3d7d1703583b34827e8a32
+Description: uinput support
+ This package contains the uinput module.
+
+Package: usb-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1547
+Provides: usb-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di
+Filename: localudebs/usb-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 300212
+MD5sum: 3820e807bd217e2fe74e3af132908459
+SHA1: 6cecf353ff566819659abdf0093adf857830c9b6
+SHA256: 0b6eb1184bbeac47e2616dfcc9128bdb4387ff80fd04c4328b159c57b6ad369b
+SHA512: d026233d6f0fd3c804657cb5b0567dbde340797d7b0f772eb16c40470f2e1b5bfd18187ecfefbd15ce1ec1a4aa822664013f63c503cdcf66b51dd628e70e60b6
+Description: USB support
+ This package contains core USB drivers for the kernel.
+
+Package: usb-serial-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: optional
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1594
+Provides: usb-serial-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/usb-serial-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 219180
+MD5sum: 73d3ef55858929a76f33ed58ba65e348
+SHA1: bb4c5cf68a87cdff352f29f4cff2201f2cc046ba
+SHA256: ef94e5e320eaa3ec5812d39a6b7948377d0cae080f5b9e5a8f57467b8c0aba4a
+SHA512: 59c90a469d8b7babdf5c831db7f42b8a3853558fa8dd375bc4b18f615e8e63e895c5728d60c23a2f2a868d4452ab981c23e0247e6b627c3e3448d43820dc02be
+Description: USB serial drivers
+ This package contains USB serial drivers for the kernel.
+
+Package: usb-storage-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 485
+Provides: usb-storage-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, scsi-core-modules-5.1.0-trunk-amd64-di, usb-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/usb-storage-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 81616
+MD5sum: 8e4d9afd0f5c4bd8c46a584b20be15f5
+SHA1: 3341d7ab2b0f596b8d31b958e9ee0d2d5a83743b
+SHA256: fc098d313cacd707c38581a1bf1a5f114b6ab7312019929dabf5c96864108580
+SHA512: 458c9f65d0da2f06e2de193e4454f558550b3cce4e6290e1013f09747ad089a2ab78e9f18e2a2e2e8fb11bff47edf46a2865d617721112cc32322a04f8ad5acd
+Description: USB storage support
+ This package contains the USB storage driver for the kernel.
+
+Package: xfs-modules-5.1.0-trunk-amd64-di
+Architecture: amd64
+Version: 5.1.16-1~exp1.1
+Kernel-Version: 5.1.0-trunk-amd64
+Priority: standard
+Section: debian-installer
+Source: linux
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 2752
+Provides: xfs-modules
+Depends: kernel-image-5.1.0-trunk-amd64-di, crc-modules-5.1.0-trunk-amd64-di
+Filename: localudebs/xfs-modules-5.1.0-trunk-amd64-di_5.1.16-1~exp1.1_amd64.udeb
+Size: 444988
+MD5sum: d6ceed82d3f6b66638b002da70c7f00b
+SHA1: f2a3f6ec156c4ff9214d737bc10f20f3d64c35f2
+SHA256: 405d8fde37edf1ba5c3ce304e2c27826b9d05bee4bc433b99a24c2ef1346a6a3
+SHA512: 9a3f7850c400ad47e5936675bbfeb62a2a036dce35af741c2834bed7a95239ffb358c3c98967829ce7889ad51c5024103261655ffdc06d97c54fba2c6491b21a
+Description: XFS filesystem support
+ This package contains the XFS filesystem module for the kernel.
+

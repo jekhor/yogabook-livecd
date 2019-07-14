@@ -1,0 +1,14 @@
+
+#if ! pidof -q touch_keyboard_handler; then
+#	ln -s /dev/input/by-path/platform-808622C1:01-event /dev/touch_keyboard
+#	rmmod goodix
+#	modprobe goodix
+#	modprobe uinput
+#	(cd /etc/touch_keyboard && /usr/sbin/touch_keyboard_handler &)
+#	if [ -e /sys/class/pwm/pwmchip1 ]; then
+#		echo 0 > /sys/class/pwm/pwmchip1/export
+#		echo 0 > /sys/class/pwm/pwmchip1/pwm0/enable
+#		echo 1 > /sys/class/pwm/pwmchip1/pwm0/enable
+#	fi
+#fi
+
