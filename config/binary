@@ -43,11 +43,12 @@ LB_BUILD_WITH_CHROOT="true"
 
 # $LB_DEBIAN_INSTALLER: set debian-installer
 # (Default: false)
-LB_DEBIAN_INSTALLER="live"
+#LB_DEBIAN_INSTALLER="live"
+LB_DEBIAN_INSTALLER="false"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
-LB_DEBIAN_INSTALLER_DISTRIBUTION="buster"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="bullseye"
 
 # $LB_DEBIAN_INSTALLER_PRESEEDFILE: set debian-installer preseed filename/url
 # (Default: )
@@ -99,7 +100,7 @@ LB_MEMTEST="none"
 
 # $LB_LOADLIN: set loadlin
 # (Default: false)
-LB_LOADLIN="true"
+LB_LOADLIN="false"
 
 # $LB_WIN32_LOADER: set win32-loader
 # (Default: false)
