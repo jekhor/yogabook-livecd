@@ -22,17 +22,15 @@ LB_LINUX_FLAVOURS="amd64"
 
 # $LB_LINUX_PACKAGES: set kernel packages to use
 # (Default: autodetected)
-LB_LINUX_PACKAGES="linux-image-5.1.0-trunk"
-
-LB_LINUX_VERSION="5.1.0-trunk-amd64"
+LB_LINUX_PACKAGES="linux-image-5.10.0-rc3"
 
 # $LB_SECURITY: enable security updates
 # (Default: true)
-LB_SECURITY="true"
+LB_SECURITY="false"
 
 # $LB_UPDATES: enable updates updates
 # (Default: true)
-LB_UPDATES="true"
+LB_UPDATES="false"
 
 # $LB_BACKPORTS: enable backports updates
 # (Default: false)
