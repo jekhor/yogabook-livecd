@@ -1,8 +1,12 @@
 firmware-linux
 firmware-brcm80211
 firmware-misc-nonfree
+firmware-intel-sound
 task-ssh-server
 android-libbase
 libinput-tools
 xinput
+touch-keyboard
+yogabook-support
+alsa-ucm-conf-yogabook
 
